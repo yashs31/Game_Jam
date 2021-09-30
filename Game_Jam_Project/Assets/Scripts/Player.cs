@@ -20,5 +20,11 @@ public class Player : MonoBehaviour
         position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         position.y = position.y + 3.0f * vertical * Time.deltaTime;
         transform.position = position;
+        demo();
+    }
+
+    void demo()
+    {
+        //do nothing
     }
 }
